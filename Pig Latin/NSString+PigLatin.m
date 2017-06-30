@@ -12,7 +12,7 @@
 
 -(NSString*)stringByPigLatinization{
     //Create NSCharacter set to ignore vowels
-    NSCharacterSet *vowels = [NSCharacterSet characterSetWithCharactersInString:@"aeiou"];
+    NSCharacterSet *vowels = [NSCharacterSet characterSetWithCharactersInString:@"aeiouAEIOU"];
     //Create mutable string to concatenate Pig Latined String
     __block NSMutableString* pigLatinString = [[NSMutableString alloc] init];
     //Separate sentence received
