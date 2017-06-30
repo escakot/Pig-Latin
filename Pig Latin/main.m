@@ -13,7 +13,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSString* helloWorld= @"Hello World";
+        NSString* stringWith3Consonants = @"strong there";
         NSLog(@"%@", [helloWorld stringByPigLatinization]);
+        NSLog(@"%@", [stringWith3Consonants stringByPigLatinization]);
     }
     return 0;
 }
